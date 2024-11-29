@@ -1,6 +1,5 @@
-import { CopyrightIcon} from "lucide-react";
 import { TextGenerateEffect } from "../_components/ui/TextGenerateEffect";
-import {PiMouseScrollFill } from "react-icons/pi";
+import {PiCopyright, PiMouseScrollFill } from "react-icons/pi";
 
 const HomePage = () => {
   return (
@@ -22,7 +21,7 @@ const HomePage = () => {
           <PiMouseScrollFill size={32} className="text-liteport absolute left-4 bottom-16"/>
         </div>
         <h1 className="font-Fredoka flex justify-end w-full absolute bottom-6 pr-12 text-liteport/20 items-center text-sm">
-          <CopyrightIcon size={12} />
+          <PiCopyright size={12} />
           {new Date().getUTCFullYear().toString()} arinzewebdev
         </h1>
       </div>
